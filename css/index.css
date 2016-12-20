@@ -38,7 +38,7 @@ h3{
 	width: 0;
 	margin: 3px auto;
 	padding: 5px 0;
-	border-top: 2px solid #f00;
+	border-top: 2px solid #fc8383;
 }
 .title_en h2 {
 	display: none;
@@ -268,7 +268,7 @@ img#home_photo2 {
 	z-index: 99;
 }
 #home_info_box {
-	border-top: 2px solid #ccc;
+	border-top: 2px solid #fc8383;
 	width: 0;
 	margin: 15px auto;
 }
@@ -301,7 +301,7 @@ img#home_photo2 {
 	height: 150px;
 	padding: 20px 0;
 	border-radius: 30px;
-	background: #a0a0b4;	
+	background: #fdcfcf;	
 }
 .about_list {
 	float: left;
@@ -554,7 +554,7 @@ img#home_photo2 {
 	border: 1px solid #ccc;
 	border-radius: 10px;
 	padding: 15px;
-	background: #c8c8dc;
+	background: #fdcfcf;
 }
 .skill_int li {
 	font-size: 12px;
@@ -625,6 +625,7 @@ img#home_photo2 {
 }
 #exp_list_slider_content {
 	position: relative;
+	background: url(../image/exp_list_bg1.png);
 }
 #exp_list_slider_content:before {
 	content: "";
@@ -645,7 +646,7 @@ img#home_photo2 {
 	position: absolute;
 	width: 60px;
 	height: 60px;
-	top: 42%;
+	top: 46%;
 	z-index: 100;
 	cursor: pointer;
 }
@@ -675,7 +676,7 @@ img#home_photo2 {
 	width: 1000px;
 	height: 320px;
 	background: url(../image/exp_list_bg.jpg);
-	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1) inset;
+	
 }
 .exp_list_left {
 	width:533px;
@@ -694,6 +695,7 @@ img#home_photo2 {
 .exp_list dd {
 	position: relative;
 	font-size: 14px;
+
 }
 .exp_list dd:before {
 	position: absolute;
@@ -715,7 +717,7 @@ img#home_photo2 {
 }
 #exp_timeline {
 	text-indent: -9999px;
-	margin: 10px auto;
+	margin: 50px auto;
 	width: 800px;
 	background: url(../image/timeline.png) no-repeat center center;
 }
@@ -796,11 +798,11 @@ img#home_photo2 {
 @media screen and (max-width:1366px){
 .exp_list {
 	width: 900px;
-	height: 300px;
-	background: url(../image/exp_list_bg1.jpg);
+	height: 350px;
+	
 }
 #exp_list_content {
-	height: 300px;
+	height: 350px;
 }
 }
 /* demo */
@@ -821,7 +823,7 @@ img#home_photo2 {
 	background: #fff;
 }
 .demo_box li:before {
-	z-index: -2;
+	z-index: -3;
 	position: absolute;
 	width: 90%;
 	height: 80%;
@@ -848,7 +850,7 @@ img#home_photo2 {
 }
 .demo_box_bg {
 	width: 200px;
-	height: 150px;
+	height: 200px;
 }
 .demo_box_content {
 	position: relative;
